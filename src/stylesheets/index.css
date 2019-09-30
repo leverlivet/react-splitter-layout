@@ -22,19 +22,18 @@
   width: 4px;
   height: 100%;
   cursor: col-resize;
-  background-color: #ccc;
 }
 
-.splitter-layout .layout-splitter:hover {
-  background-color: #bbb;
+.splitter-layout .layout-splitter .custom-splitter:hover {
+  background-color: rgba(0,0,0,0.12);
 }
 
 .splitter-layout.layout-changing {
   cursor: col-resize;
 }
 
-.splitter-layout.layout-changing > .layout-splitter {
-  background-color: #aaa;
+.splitter-layout.layout-changing > .layout-splitter .custom-splitter {
+  background-color: rgba(0,0,0,0.20);
 }
 
 .splitter-layout.splitter-layout-vertical {
